@@ -1,107 +1,142 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <title>Quiz Board</title>
-      <link href="css/bootstrap copy 3.css" rel="stylesheet" type="text/css">
-      <link href="css/bootstrap.min copy 3.css" rel="stylesheet" type="text/css">
-      <link href="css/style.css" rel="stylesheet" type="text/css">
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <script src="js/script.js"></script>
-      <h1>Quiz board</h1>
-  </head>
-  <body>
-    <div class="container">
-      <form id="questions">
-    <h2>What is another name for java script</h2>
-    <div class="radio">
-      <label>
-          <input type="radio" name="question1" value="5">
-            ECMAScript
-          </label>
-     </div>
-     <div class="radio">
-      <label>
-          <input type="radio" name="question1" value="0">
-           Vue
-          </label>
-         </div>
-         <div class="radio">
-        <label>
-            <input type="radio" name="question1" value="0">
-            I don't know
-          </label>
+
+<head>
+  <title>Quiz Board</title>
+  <link href="css/bootstrap copy 3.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min copy 3.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <h1 id="header">Quiz board</h1>
+</head>
+
+<body>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <form id="questions">
+          <h2 class="panel-title">1. What is another name for java script</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="5">
+              ECMAScript
+            </label>
           </div>
-        <h2>What is the short form of HTML?</h2>
-         <div class="radio">
-        <label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="0">
+              Vue
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="0">
+              I don't know
+            </label>
+          </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <form id="questions">
+          <h2 class="panel-title">2. What is the short form for Hyper Text Mark-up Language</h2>
+          <div class="radio">
+            <label>
               <input type="radio" name="question2" value="0">
               HTML
             </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="0">
+              HMLT
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="0">
+              MLHT
+            </label>
+          </div>
       </div>
-      <div class="radio">
-      <label>
-            <input type="radio" name="question2" value="0">
-            MLHT
-          </label>
     </div>
-    <h2>Is Java and JavaScript?</h2>
-    <div class="radio">
-        <label>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <form id="questions">
+          <h2 class="panel-title">3. Is Java the same as JavaScript</h2>
+          <div class="radio">
+            <label>
               <input type="radio" name="question3" value="5">
               Yes
             </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="0">
+              No
+            </label>
+
+          </div>
       </div>
-      <div class="radio">
-              <label>
-                    <input type="radio" name="question3" value="0">
-                    No
-                  </label>
-            </div>
-<h2>What is the easiest programming language?</h2>
-<div class="radio">
-        <label>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <form id="questions">
+          <h2 class="panel-title">4. What is the easiest programming language</h2>
+          <div class="radio">
+            <label>
               <input type="radio" name="question4" value="5">
-              JavaScript
+              JaveScript
             </label>
-      </div>
-      <div class="radio">
-        <label>
+          </div>
+          <div class="radio">
+            <label>
               <input type="radio" name="question4" value="0">
-              c++
+              C++
             </label>
-      </div>
-      <div class="radio">
-        <label>
-              <input type="radio" name="question4" value="0">
-              Python
-            </label>
-      </div>
-      <h2>Can Javascript be linked together with bootstrap?</h2>
-      <div class="radio">
+            <div class="radio">
               <label>
-                    <input type="radio" name="question5" value="0">
-                    YES
-                  </label>
+                <input type="radio" name="question4" value="0">
+                Python
+              </label>
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <form id="questions">
+            <h2 class="panel-title">4. Can JavaScript be kinked together with bootstrap</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question5" value="0">
+                Yes
+              </label>
             </div>
             <div class="radio">
-        <label>
-              <input type="radio" name="question5" value="5">
-              NO
-            </label>
-      </div>
-      <div class="radio">
-        <label>
-              <input type="radio" name="question5" value="0">
-              Maybe
-            </label>
-      </div>
-    </div>
+              <label>
+                <input type="radio" name="question5" value="5">
+                No
+              </label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="0">
+                  Maybe
+                </label>
+              </div>
+            </div>
+        </div>
+        </div>
+
         <div class="btn-group" role="group">
-          <button type="submit" id="buton"class="btn btn-primary"> Check Answers </button>
-      </form>
-    </div>
-<div class=answer>
- <h1>Scores</h1>
- <p> <span id=result></span></p>
-    </div>
-  </div>
+          <button type="submit" id="buton" class="btn btn-primary"> Check Answers </button>
+          </form>
+        </div>
+        <div class=answer>
+          <h1 id="footer">Scores</h1>
+          <p> <span id=result></span></p>
+        </div>

@@ -11,11 +11,18 @@ h2 {
   color:
 
 }
-h1 {
+#header{
   font size: 45
   text-align: center;
   color: MidnightBlue;
   text-decoration: underline;
   text-align: center;
 
+}
+#footer{
+  font size: 45
+  text-align: center;
+  color: MidnightBlue;
+  text-decoration: underline;
+  text-align: left;
 }
