@@ -14,6 +14,9 @@ $(document).ready(function() {
     var answer = correct(question1,question2,question3,question4,question5);
 
 
+    $("#hide").click(function(){
+        $("p").hide();
+    });
 
     $("#result").text("Your answer is "+answer);
 
